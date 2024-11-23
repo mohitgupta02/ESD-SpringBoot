@@ -1,7 +1,7 @@
-package com.mohitgupta.academiaesd.controller;
+package com.mohitgupta.esdproject.controller;
 
-import com.mohitgupta.academiaesd.model.Domain;
-import com.mohitgupta.academiaesd.repository.DomainRepository;
+import com.mohitgupta.esdproject.model.Domain;
+import com.mohitgupta.esdproject.repository.DomainRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
