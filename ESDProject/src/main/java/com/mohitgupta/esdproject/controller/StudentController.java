@@ -1,6 +1,6 @@
 package com.mohitgupta.esdproject.controller;
 
-import com.mohitgupta.esdproject.model.Student;
+import com.mohitgupta.esdproject.entity.Student;
 import com.mohitgupta.esdproject.repository.StudentRepository;
 import com.mohitgupta.esdproject.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;

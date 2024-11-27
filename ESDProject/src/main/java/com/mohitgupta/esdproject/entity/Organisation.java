@@ -1,8 +1,7 @@
-package com.mohitgupta.esdproject.model;
+package com.mohitgupta.esdproject.entity;
 
 
 import jakarta.persistence.*;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 //@SpringBootApplication
 @Entity

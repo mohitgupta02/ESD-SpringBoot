@@ -1,4 +1,4 @@
-package com.mohitgupta.esdproject.model;
+package com.mohitgupta.esdproject.entity;
 
 import lombok.Getter;
 import lombok.Setter;

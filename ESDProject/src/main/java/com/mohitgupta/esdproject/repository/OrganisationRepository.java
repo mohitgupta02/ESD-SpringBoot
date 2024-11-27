@@ -1,7 +1,6 @@
 package com.mohitgupta.esdproject.repository;
 
-import com.mohitgupta.esdproject.model.Organisation;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.mohitgupta.esdproject.entity.Organisation;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

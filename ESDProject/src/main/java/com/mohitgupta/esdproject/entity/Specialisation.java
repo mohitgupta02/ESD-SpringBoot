@@ -1,8 +1,6 @@
-package com.mohitgupta.esdproject.model;
+package com.mohitgupta.esdproject.entity;
 
 import jakarta.persistence.*;
-
-import java.util.List;
 
 @Entity
 public class Specialisation {

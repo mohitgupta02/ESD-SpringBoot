@@ -1,6 +1,6 @@
 package com.mohitgupta.esdproject.repository;
 
-import com.mohitgupta.esdproject.model.Student;
+import com.mohitgupta.esdproject.entity.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

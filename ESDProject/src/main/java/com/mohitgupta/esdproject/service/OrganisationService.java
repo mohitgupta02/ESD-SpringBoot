@@ -10,8 +10,4 @@ public class OrganisationService {
     @Autowired
     private OrganisationRepository organisationRepository;
 
-//    public List<Object[]> getData(){
-//    @Autowired
-//    private PlacementRepository placementRepository;
-
 }

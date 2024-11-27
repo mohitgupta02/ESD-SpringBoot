@@ -1,6 +1,6 @@
 package com.mohitgupta.esdproject.controller;
 
-import com.mohitgupta.esdproject.model.Specialisation;
+import com.mohitgupta.esdproject.entity.Specialisation;
 import com.mohitgupta.esdproject.repository.SpecialisationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;

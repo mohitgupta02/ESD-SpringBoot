@@ -1,13 +1,12 @@
 package com.mohitgupta.esdproject.service;
 
-import com.mohitgupta.esdproject.model.Department;
-import com.mohitgupta.esdproject.model.Employee;
-import com.mohitgupta.esdproject.model.Login;
-import com.mohitgupta.esdproject.model.LoginMessage;
+import com.mohitgupta.esdproject.entity.Department;
+import com.mohitgupta.esdproject.entity.Employee;
+import com.mohitgupta.esdproject.entity.Login;
+import com.mohitgupta.esdproject.dto.LoginMessage;
 import com.mohitgupta.esdproject.repository.DepartmentRepository;
 import com.mohitgupta.esdproject.repository.EmployeeRepository;
 import com.mohitgupta.esdproject.repository.PlacementRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;

@@ -1,4 +1,4 @@
-package com.mohitgupta.esdproject.model;
+package com.mohitgupta.esdproject.dto;
 
 public class LoginMessage {
     String message;

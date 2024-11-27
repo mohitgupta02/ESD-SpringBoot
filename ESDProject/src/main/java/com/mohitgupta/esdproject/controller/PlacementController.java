@@ -1,6 +1,6 @@
 package com.mohitgupta.esdproject.controller;
 
-import com.mohitgupta.esdproject.model.Placement;
+import com.mohitgupta.esdproject.entity.Placement;
 import com.mohitgupta.esdproject.repository.PlacementRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

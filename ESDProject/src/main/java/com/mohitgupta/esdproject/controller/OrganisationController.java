@@ -1,11 +1,10 @@
 package com.mohitgupta.esdproject.controller;
 
-import com.mohitgupta.esdproject.model.Login;
-import com.mohitgupta.esdproject.model.LoginMessage;
-import com.mohitgupta.esdproject.model.Organisation;
-import com.mohitgupta.esdproject.model.Placement;
+import com.mohitgupta.esdproject.entity.Login;
+import com.mohitgupta.esdproject.dto.LoginMessage;
+import com.mohitgupta.esdproject.entity.Organisation;
+import com.mohitgupta.esdproject.entity.Placement;
 import com.mohitgupta.esdproject.repository.OrganisationRepository;
-import com.mohitgupta.esdproject.repository.PlacementRepository;
 import com.mohitgupta.esdproject.service.LoginService;
 import com.mohitgupta.esdproject.service.OrganisationService;
 import com.mohitgupta.esdproject.service.PlacementService;
@@ -66,6 +65,4 @@ public class OrganisationController {
         }
 
 
-//    @GetMapping("/data")
-//    List<Object[]>
 }
