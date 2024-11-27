@@ -47,7 +47,8 @@ export default function Login() {
 
       try{
         const response = await axios.post("http://localhost:8081/login",loginData);
-        // setMsg(response.data.message);
+        console.log(response.data.message);
+        localStorage.setItem('jwt',response.data.message)
         // setLoginstatus(response.data.status);
         console.log(response);
 

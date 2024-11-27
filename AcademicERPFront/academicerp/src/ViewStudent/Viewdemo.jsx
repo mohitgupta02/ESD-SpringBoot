@@ -21,7 +21,13 @@ export default function Viewdemo() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:8081/students');
+        const token=localStorage.getItem('jwt');
+
+        const response = await axios.get('http://localhost:8081/students',{
+          headers: {
+            Authorization: 'Bearer ' + token
+          }
+         });
         setAppliedStudents(response.data);
         setFilteredStudents(response.data);
 

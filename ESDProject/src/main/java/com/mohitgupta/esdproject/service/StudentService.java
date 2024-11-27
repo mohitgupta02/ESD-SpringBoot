@@ -16,4 +16,8 @@ public class StudentService {
     public List<Student> getAllStudentsWithDetails() {
         return studentRepository.findAll();
     }
+
+    public Student createStudent(Student newStudent) {
+        return studentRepository.save(newStudent);
+    }
 }

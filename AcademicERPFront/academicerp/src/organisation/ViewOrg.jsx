@@ -25,7 +25,12 @@ export default function ViewOrg() {
   },[]);
 
   const loadOrg = async ()=>{
-    const result = await axios.get(`http://localhost:8081/place/${organisationId}`);
+      const token=localStorage.getItem('jwt');
+      const result = await axios.get(`http://localhost:8081/place/${organisationId}`,{
+        headers: {
+          Authorization: 'Bearer ' + token
+        }
+       });
     console.log(result.data);
     setOrg(result.data);
   };

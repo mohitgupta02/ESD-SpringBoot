@@ -40,17 +40,17 @@ public class OrganisationController {
 
     @GetMapping("/organisations")
     List<Organisation> question1(){
-            return organisationRepository.findAll();
+            return organisationService.getAllOrg();
         }
 
     @GetMapping("/place/{id}")
     Optional<Organisation> question(@PathVariable Long id){
-        return organisationRepository.findById(id);
+        return organisationService.getPlaceById(id);
     }
 
     @PostMapping("/organisation")
     Organisation newOrganisation(@RequestBody Organisation newOrganisation) {
-        return organisationRepository.save(newOrganisation);
+        return organisationService.createOrg(newOrganisation);
     }
 
     @PostMapping("/login")

@@ -33,6 +33,4 @@ public class LoginMessage {
         this.status = status;
     }
 
-    public LoginMessage() {
-    }
 }

@@ -11,11 +11,23 @@ export default function Homepage() {
          loadOrg();
     },[]);  {/* if we do not give [](empty array) then it will run for infinte time */}
 
-    const loadOrg=async()=>{
-        const result=await axios.get("http://localhost:8081/place");
-        setOrg(result.data);
-        
-    };
+    const loadOrg = async () => {
+      try {
+          const token = localStorage.getItem('jwt');
+          console.log(token);
+          
+          const result = await axios.get("http://localhost:8081/place", {
+              headers: {
+                  Authorization: `Bearer ${token}`
+              }
+          });
+  
+          setOrg(result.data);
+      } catch (error) {
+          console.error("Error fetching data:", error);
+      }
+  };
+  
 
 
   return (

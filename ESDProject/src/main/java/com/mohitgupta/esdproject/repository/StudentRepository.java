@@ -8,6 +8,4 @@ import java.util.List;
 
 public interface StudentRepository extends JpaRepository<Student,Long> {
 
-    @Query("SELECT s FROM Student s JOIN FETCH s.specialisation JOIN FETCH s.domain")
-    List<Student> findAllWithDetails();
 }
